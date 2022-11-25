@@ -1,0 +1,53 @@
+name: SpacecraftCore
+main: mc.Spacecraft.Core.Main
+version: 7.4
+author: FurryKittenArmy
+commands:
+  rankup:
+    description: Ranks someone up
+    usage: /rankup (player)
+  rankdown:
+    description: Ranks someone down
+    usage: /rankdown (player)
+  setrank:
+    description: Sets a players rank
+    usage: /setrank (player) (ranknumber)
+  sethome:
+    description: Sets home
+    usage: /sethome
+  home:
+    description: Goes home
+    usage: /home
+  tpa:
+    description: Sends a tpa request
+    usage: /tpa (player)
+  tpaccept:
+    description: accepts a tpa request
+    usage: /tpaccept
+  connect:
+    description: to try a connection into the database
+    usage: /connect
+  close:
+    description: to close the connection to the database
+    usage: /close
+  coreversion:
+    description: gets server plugin version
+    useage: /coreversion
+  wp:
+    description: teleports you to a waypoint
+    useage: /wp waypoint
+  swp:
+    description: sets waypoint
+    useage: /swp waypoint
+  dwp:
+    description: removed waypoint
+    useage: /dwp waypoint
+  setwaypoint:
+    description: sets wayoint
+    useage: /setwaypoint waypoint
+  deletewaypoint:
+    description: deletes a waypoint
+    useage: /deletewaypoint waypoint
+  waypoint:
+    description: teleports you to a waypoint
+    useage: /waypoint waypoint
